@@ -13,6 +13,13 @@ pyautogui.press('enter')
 
 
 #Passo 2: Fazer login
+pyautogui.click(x=727, y=377)
+pyautogui.write('nath_2002@gmail.com')
+pyautogui.press('tab')
+pyautogui.write('12345')
+pyautogui.press('enter')
+
+
 #Passo 3: Importar a base de dados
 #Passo 4: Cadastrar 1 produto
 #Passo 5: Repetir o processo de cadastro até acabar os produtos
